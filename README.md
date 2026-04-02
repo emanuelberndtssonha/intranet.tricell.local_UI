@@ -31,7 +31,7 @@ Installation & Setup
 Clone the repository:
 
 Bash
-git clone [https://github.com/SabumnimKim/www.tricell.top_UI.git](https://github.com/SabumnimKim/www.tricell.top_UI.git)
+git clone [https://github.com/emanuelberndtssonha/intranet.tricell.local_UI.git](https://github.com/emanuelberndtssonha/intranet.tricell.local_UI.git)
 cd www.tricell.top_UI
 Install dependencies:
 
