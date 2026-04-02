@@ -1,0 +1,105 @@
+.table {
+	display: table;
+	width: 716px;
+	border-collapse: collapse;
+	font-size: 12px;
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+}
+
+.row {
+	display: table-row;
+}
+
+.light_column_cell,
+.dark_column_cell {
+	display: table-cell;
+	border: 1px solid black;
+	height: 30px;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+
+.light_column_cell {
+	text-align: center;
+	background-color: #b0dfdf;
+
+}
+
+.dark_column_cell {
+	text-align: left;
+	padding: 5px;
+	font-size: 16px;
+	background-color: #548d8d;
+}
+
+.table_cell_values,
+.table_cell_values_name {
+	display: table-cell;
+	border: 1px solid black;
+	height: 20px;
+	vertical-align: middle;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+.table_cell_values {
+	text-align: center;
+}
+
+
+.table_cell_values_name {
+	font-size: 16px;
+	text-align: left;
+	color: #ffffff;
+	background-color: #cccccc;
+}
+
+.edit_button {
+	display: table-cell;
+	border: 1px solid black;
+	height: 20px;
+	vertical-align: middle;
+	border-collapse: collapse;
+	padding: 5px;
+	font-size: 16px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #cccccc;
+}
+
+.delete_button {
+	display: table-cell;
+	border: 1px solid black;
+	height: 20px;
+	vertical-align: middle;
+	border-collapse: collapse;
+	padding: 5px;
+	font-size: 16px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #cccccc;
+
+}
+
+.newemployeebttn {
+	font-size: 30px;
+	text-align: right;
+
+}
+
+a.special-link {
+	color: blue;
+}
+
+
+.row-archived {
+	display: table-row;
+	background-color: #e0e0e0 !important;
+	color: #777 !important;
+}
+
+
+.row-archived a {
+	color: #666 !important;
+}

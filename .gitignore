@@ -1,0 +1,30 @@
+# Dependency directories (Dessa laddas aldrig upp)
+node_modules/
+jspm_packages/
+
+# SQLite databaser (Ladda inte upp din lokala db om den innehåller testdata)
+# Om du VILL ladda upp en tom databasmall, ta bort raden nedan
+*.sqlite
+*.db
+
+# Uppladdade filer via Multer
+# Vi vill ofta behålla mappen men inte bilderna som laddats upp under test
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Logfiler
+logs
+*.log
+npm-debug.log*
+
+# Miljövariabler (Känslig info som API-nycklar/lösenord)
+.env
+.env.local
+
+# Operativsystem-filer
+.DS_Store
+Thumbs.db
+
+# IDE / Editor mappar
+.vscode/
+.idea/

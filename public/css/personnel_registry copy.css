@@ -1,0 +1,77 @@
+* {
+
+	font-family: arial;
+	font-size: 14px;
+	display: grid;
+}
+
+personnelRegistry {
+	margin-top: 30px;
+	background-color: #ffffff;
+	width: 100%;
+}
+
+employee {
+	display: table;
+	margin-left: 30pt;
+	border-top: 1px solid;
+	border-collapse: collapse;
+	border-color: #000000;
+}
+
+employeeCode,
+name,
+signatureDate,
+dateOfBirth,
+sex,
+bloodType,
+height,
+weight,
+rank,
+securityAccessLevel,
+department {
+	display: table-cell;
+	background-color: #b0dfdf;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: arial;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+employeeCode,
+signatureDate,
+securityAccessLevel {
+	width: 100px;
+}
+
+rank {
+	width: 150px;
+}
+
+dateOfBirth,
+sex,
+bloodType,
+height,
+weight {
+	width: 70px;
+}
+
+name {
+	display: table-cell;
+	width: 210px;
+	background-color: #548d8d;
+	vertical-align: middle;
+	padding-left: 2px;
+	color: #0000ff;
+	font-size: 14px;
+	text-align: left;
+	border-left: 1px solid;
+}
+
+background,
+strengths,
+weaknesses {
+	display: none;
+}

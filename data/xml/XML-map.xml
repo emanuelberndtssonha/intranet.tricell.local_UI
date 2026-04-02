@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<personnelRegistry>
+	<employee>
+		<employeeCode></employeeCode>
+		<name></name>
+		<signatureDate></signatureDate>
+		<dateOfBirth></dateOfBirth>
+		<sex></sex>
+		<bloodType></bloodType>
+		<height></height>
+		<weight></weight>
+		<rank></rank>
+		<securityAccessLevel></securityAccessLevel>
+		<department></department>
+		<background></background>
+		<strengths>C</strengths>
+		<weaknesses>C</weaknesses>
+	</employee>
+	<employee>
+		<employeeCode></employeeCode>
+		<name></name>
+		<signatureDate></signatureDate>
+		<dateOfBirth></dateOfBirth>
+		<sex></sex>
+		<bloodType></bloodType>
+		<height></height>
+		<weight></weight>
+		<rank></rank>
+		<securityAccessLevel></securityAccessLevel>
+		<department></department>
+		<background></background>
+		<strengths>C</strengths>
+		<weaknesses>C</weaknesses>
+	</employee>
+</personnelRegistry>

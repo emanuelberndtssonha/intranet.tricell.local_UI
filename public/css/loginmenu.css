@@ -1,0 +1,86 @@
+#loginLayer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: #98e6b2;
+    width: 250px;
+    padding: 10px;
+    border: #294e13 2px dashed;
+    display: none;
+}
+
+
+#loginMenu {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    display: none;
+    flex-direction: column;
+    /* Staplar elementen vertikalt */
+    gap: 10px;
+    /* Skapar mellanrum mellan fälten */
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    /* Ger mjuka, runda hörn */
+    width: 300px;
+    /* Gör rutan lite bredare */
+}
+
+input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+/* Grundstilen för knappen */
+input[type="button"],
+input[type="submit"],
+button {
+    width: 100%;
+    /* Gör att knappen tar upp hela bredden */
+    padding: 12px;
+    /* Lite tjockare för bättre känsla */
+    background-color: #00fbff;
+    /* Din Aqua-färg */
+    color: #000;
+    /* Svart text för bra kontrast */
+    border: none;
+    /* Tar bort fula standardramar */
+    border-radius: 6px;
+    /* Rundade hörn */
+    font-size: 16px;
+    /* Tydlig textstorlek */
+    font-weight: bold;
+    /* Fetstil gör att den sticker ut */
+    cursor: pointer;
+    /* Visar hand-ikonen vid hovring */
+    transition: all 0.2s ease;
+    /* Gör alla ändringar mjuka */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* En subtil skugga */
+}
+
+/* Hover-effekt (när musen är över) */
+input[type="button"]:hover,
+button:hover {
+    background-color: #00d8db;
+    /* Lite mörkare aqua */
+    transform: translateY(-2px);
+    /* Lyfter knappen lite grann */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    /* Större skugga när den "lyfter" */
+}
+
+/* Active-effekt (när man faktiskt klickar ner knappen) */
+input[type="button"]:active,
+button:active {
+    transform: translateY(0);
+    /* Trycker ner knappen igen */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Mindre skugga */
+}

@@ -1,0 +1,142 @@
+.boxrubrik {
+    width: 758px;
+    margin-left: 110px;
+    border: 1px solid;
+    border-color: #000000;
+}
+
+td.boxrubriktext {
+    height: 30px;
+    background-color: #274f26;
+    text-align: left;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+table.yttretabell {
+    display: block;
+    margin-left: 110px;
+    width: 758px;
+    border: 1px solid;
+    border-color: #000000;
+    margin-bottom: 20px;
+    background-image: url("../images/tablebg.gif");
+}
+
+.mellantabell {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 182px;
+    border: 1px solid #000000;
+    vertical-align: top;
+}
+
+td.fotokolumn {
+    width: auto;
+    vertical-align: top;
+}
+
+table.fotokolumn {
+    border: 0px solid #000000;
+
+}
+
+td.fotokolumntextkod {
+    font-weight: bold;
+    width: 166px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    color: #000000;
+    background-color: #c5f7ff;
+    font-size: 14px;
+
+}
+
+.employee {
+    color: #686868;
+
+}
+
+.kod {
+    font-size: 16px;
+}
+
+
+td.fotokolumntextlevel {
+    font-weight: bold;
+    width: 166px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    color: #000000;
+    background-color: #70b8c3;
+    font-size: 14px;
+
+}
+
+.level {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.spacer10 {
+    height: 10px;
+}
+
+td.variabler {
+    vertical-align: top;
+    width: 135px;
+}
+
+.variabler-tabell {
+    border-collapse: collapse;
+}
+
+.variabel-label {
+    width: 135px;
+    height: 30px;
+    text-align: right;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    /* motsvarar ungefär font size="2" */
+    color: #686868;
+    font-weight: bold;
+}
+
+/* ====== Värden-kolumn ====== */
+
+td.varden {
+    vertical-align: top;
+    width: 245px;
+}
+
+.varden-tabell {
+    border-collapse: collapse;
+}
+
+.varde-rad {
+    width: 245px;
+    height: 29px;
+    /* ersätter height="29" */
+    text-align: left;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    /* ersätter <font size="4"> */
+    color: #000000;
+    font-weight: bold;
+}
+
+.varde-linje {
+    height: 1px;
+    background-color: #000000;
+    /* ersätter bgcolor="#000000" */
+}
+
+.varde-spacer {
+    height: 10px;
+    /* ersätter height="10" */
+}

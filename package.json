@@ -1,0 +1,28 @@
+{
+  "name": "tricell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "better-sqlite3-session-store": "^0.1.0",
+    "body-parser": "^2.2.2",
+    "cookie-parser": "^1.4.7",
+    "ejs": "^5.0.1",
+    "express": "^4.22.1",
+    "express-session": "^1.19.0",
+    "formidable": "^3.5.4",
+    "multer": "^2.1.1",
+    "pdfkit": "^0.18.0",
+    "pug": "^3.0.3",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^10.0.3"
+  }
+}
