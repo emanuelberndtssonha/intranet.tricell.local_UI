@@ -12,6 +12,28 @@ The project focuses on implementing a modern, responsive frontend that integrate
 > **Note:** This repository contains the enhanced frontend. Students are required to integrate this UI with their personal backend and database logic developed in previous courses.
 
 ---
+This repository contains several different frontend implementations of the same web application.
+Each implementation is stored in a separate Git branch.
+
+---
+
+## Branch Overview
+
+- **main** – Original base version of the application
+
+- **bootstrap-version** – Layout implemented using the Bootstrap framework
+
+- **html5-version** – Layout implementation using semantic HTML5
+
+- **multimedia-version** – Layout implementation using HTML5 including multimedia elements
+
+- **responsive-version** – Responsive layout implementation
+
+- **css-grid-version** – Layout implemented using CSS Grid
+
+## How to View a VersionOn GitHub, select the desired branch from the branch selector at the top of
+the repository page.
+Each branch represents a different approach to responsive frontend design.
 
 ### Project Structure
 ```text
