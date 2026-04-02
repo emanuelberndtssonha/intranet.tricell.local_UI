@@ -32,8 +32,7 @@ Each implementation is stored in a separate Git branch.
 - **css-grid-version** – Layout implemented using CSS Grid
 
 ## How to View a VersionOn GitHub, select the desired branch from the branch selector at the top of
-the repository page.
-Each branch represents a different approach to responsive frontend design.
+the repository page. Each branch represents a different approach to responsive frontend design.
 
 ### Project Structure
 ```text
