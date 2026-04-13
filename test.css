@@ -1,0 +1,113 @@
+.grid-container {
+
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto 700px 200px auto;
+    grid-template-rows: 30px 300px 50px auto auto;
+    border: 1px solid black;
+}
+
+/* TOP START */
+.grid-emptygreen {
+    background-color: green;
+}
+
+.grid-header {
+    background-color: green;
+    grid-column: span 2;
+    text-align: center;
+}
+
+.grid-breadcrumb-area {
+
+    grid-column: span 4;
+    background-image: url(./Header_img_01.jpg);
+}
+
+
+
+
+.breadcrummenu {
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 10;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.breadcrumimage {
+    margin-top: 70px;
+    margin-left: 20px;
+
+}
+
+
+.grid-topmenu {
+
+    grid-column: span 4;
+    background-color: black;
+    align-content: center;
+}
+
+.grid-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    gap: 10px;
+    justify-content: center;
+}
+
+.page-button {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: green;
+    justify-self: center;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+/* TOP SLUT */
+
+/* MIDDLE START */
+.grid-emptywhite,
+.grid-main {
+
+    background-color: white;
+}
+
+.grid-main {}
+
+.grid-rightmenu {
+    background-color: white;
+    min-height: 1.5;
+}
+
+/* MIDDLE SLUT */
+.grid-emptyblack {
+    background-color: black;
+}
+
+.grid-footer {
+
+    grid-column: span 2;
+    background-color: black;
+
+}
+
+.footer {
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+}
+
+div {
+
+    border: 1px solid black !important;
+}
