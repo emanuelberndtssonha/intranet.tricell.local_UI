@@ -31,8 +31,7 @@ Each implementation is stored in a separate Git branch.
 
 - **css-grid-version** – Layout implemented using CSS Grid
 
-## How to View a VersionOn GitHub, select the desired branch from the branch selector at the top of
-the repository page.
+## How to View a VersionOn GitHub, select the desired branch from the branch selector at the top of the repository page.
 Each branch represents a different approach to responsive frontend design.
 
 ### Project Structure
@@ -53,7 +52,7 @@ Installation & Setup
 Clone the repository:
 
 Bash
-git clone [https://github.com/SabumnimKim/www.tricell.top_UI.git](https://github.com/SabumnimKim/www.tricell.top_UI.git)
+git clone [https://github.com/emanuelberndtssonha/intranet.tricell.local_UI.git](https://github.com/emanuelberndtssonha/intranet.tricell.local_UI.git)
 cd www.tricell.top_UI
 Install dependencies:
 
